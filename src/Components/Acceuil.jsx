@@ -12,8 +12,8 @@ export default function Acceuil() {
 			</nav>
 			<Routes>
 				<Route path="/" element={<ListUser />} />
-				<Route path="/detailUser/:id" element={<DetailUser />} />
-				<Route path="/listPosts/:id" element={<ListPosts />} />
+				<Route path="/detailutilisateur/:id" element={<DetailUser />} />
+				<Route path="/listedesPostes/:id" element={<ListPosts />} />
 			</Routes>
 		</div>
 	);

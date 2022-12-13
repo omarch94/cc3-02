@@ -38,12 +38,18 @@
 }
 .ListUser{
   display: flex;
-  border: 1px solid;
   flex-wrap: wrap;
+  gap:10px;
+padding: 20px;
 
 }
 .user{
-  flex-basis: 20%;
-  gap:2px;
+  flex-basis: 22%;
   border: 1px solid;
+}
+.user button{
+  border-radius:10px ;
+  margin: 10px auto;
+  display: block;
+  
 }
